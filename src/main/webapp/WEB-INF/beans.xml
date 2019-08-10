@@ -13,4 +13,8 @@
           implementor="com.up.ropa.HelloWorldImpl" 
           address="/HelloWorld" />
           
+           <jaxws:endpoint 
+          id="ropaService" 
+          implementor="com.up.ropa.soapservice.RopaServiceImplements" 
+          address="/RopaService" />
 </beans>
